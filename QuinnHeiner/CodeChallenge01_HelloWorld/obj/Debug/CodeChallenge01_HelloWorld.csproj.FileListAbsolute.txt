@@ -1,0 +1,16 @@
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\bin\Debug\CodeChallenge01_HelloWorld.exe.config
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\bin\Debug\CodeChallenge01_HelloWorld.exe
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\bin\Debug\CodeChallenge01_HelloWorld.pdb
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\bin\Debug\Newtonsoft.Json.dll
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\bin\Debug\Newtonsoft.Json.xml
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\obj\Debug\CodeChallenge01_HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\obj\Debug\CodeChallenge01_HelloWorld.exe
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\obj\Debug\CodeChallenge01_HelloWorld.pdb
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\bin\Debug\CodeChallenge01_HelloWorld.exe.config
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\obj\Debug\CodeChallenge01_HelloWorld.exe
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\obj\Debug\CodeChallenge01_HelloWorld.pdb
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\obj\Debug\CodeChallenge01_HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\bin\Debug\CodeChallenge01_HelloWorld.exe
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\bin\Debug\CodeChallenge01_HelloWorld.pdb
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge01_HelloWorld\bin\Debug\Newtonsoft.Json.xml
