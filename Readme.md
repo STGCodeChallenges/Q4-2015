@@ -1,1 +1,1 @@
-Run with `node challegne1.js`
+Run with `node challenge1.js`
