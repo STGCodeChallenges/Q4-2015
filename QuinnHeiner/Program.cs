@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Configuration;
-using O;
-
 /*
 
 Challenge #1 (due 11/23/2015): Hello W@#$!?
@@ -26,614 +23,73 @@ GitHub repo: https://github.com/STGCodeChallenges/Q4-2015-Challenge-01
 Google Form (to be filled out upon completion of challenge): https://docs.google.com/a/stgconsulting.com/forms/d/1ZZTzV6E0SKwII54O65HwET5c9z1h1RtbbXkNVbsbJPs/viewform?usp=send_form
 
  */
-namespace CodeChallenge01_HelloWorld
-{
-	public class Program
-	{
-		public static void Main()
-		{
-			// var o represents a printable character (will render as O.O in the console output)
-			var o = new O.O();
-
-			// var x represents a nonprintable character (will render as a space in the console output)
-			// TODO - x is technically still a string at this point..need to find some other way to print a space
-			var nonPrintableCharacterType = typeof(NonPrintableCharacter);
-			var x = ConfigurationManager.AppSettings[nonPrintableCharacterType.Name];
-
-			// Line 1
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-
-			// Line 2
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-
-			// Line 3
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-
-			// Line 4
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-
-			// Line 5
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-
-			// Line 6
-			Console.WriteLine();
-
-			// Line 7
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-
-			// Line 8
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-
-			// Line 9
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-
-			// Line 10
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-
-			// Line 11
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(o);
-			Console.Write(x);
-			Console.Write(x);
-			Console.Write(o);
-
-			Console.ReadKey();
-		}
-	}
-}
 
 namespace O
 {
 	// class representation of a printable character
-	public class O { }
+	public class O {}
+}
 
-	// class representation of a nonprintable character (e.g. a space)
-	public class NonPrintableCharacter { }
+namespace CodeChallenge01_HelloWorld
+{
+	public class Program
+	{
+		public static readonly O.O O = new O.O();
+
+		// prints "O.O" to the screen, since namespace will be included
+		private static void P()
+		{
+			Console.Write(O);
+		}
+
+		// moves cursor to the next COLUMN
+		public static void C()
+		{
+			Console.CursorLeft++;
+		}
+
+		// moves cursor to the next ROW
+		public static void R()
+		{
+			Console.SetCursorPosition(Console.CursorLeft - Console.CursorLeft, ++Console.CursorTop);
+		}
+
+		public static void Main()
+		{
+			// Line 1
+			P();C();C();C();P();C();C();C();P();P();P();C();C();P();C();C();C();C();C();C();C();C();P();C();C();C();C();C();C();C();C();P();P();P();R();
+			
+			// Line 2
+			P();C();C();C();P();C();C();C();P();C();C();C();C();C();C();C();C();P();C();C();C();C();C();C();C();C();P();C();C();C();C();C();C();C();C();P();C();C();C();P();R();
+			
+			// Line 3
+			P();P();P();C();C();C();P();P();P();C();C();P();C();C();C();C();C();C();C();C();P();C();C();C();C();C();C();C();C();P();C();C();C();P();R();
+			
+			// Line 4
+			P();C();C();C();P();C();C();C();P();C();C();C();C();C();C();C();C();P();C();C();C();C();C();C();C();C();P();C();C();C();C();C();C();C();C();P();C();C();C();P();R();
+			
+			// Line 5
+			P();C();C();C();P();C();C();C();P();P();P();C();C();P();P();P();C();C();P();P();P();C();C();P();P();P();R();
+			
+			// Line 6
+			R();
+			
+			// Line 7
+			P();C();C();C();C();P();C();C();C();C();C();P();C();C();C();P();P();P();C();C();P();P();P();C();C();C();P();C();C();C();C();C();C();C();C();P();P();P();C();C();P();R();
+			
+			// Line 8
+			P();C();C();C();C();P();C();C();C();C();C();P();C();C();C();P();C();C();C();P();C();C();P();P();P();C();C();C();P();C();C();C();C();C();C();C();C();P();C();C();C();P();C();C();P();R();
+			
+			// Line 9
+			P();C();C();C();C();P();C();C();C();C();C();P();C();C();C();P();C();C();C();P();C();C();P();C();C();C();P();C();C();C();P();C();C();C();C();C();C();C();C();P();C();C();C();P();C();C();P();R();
+			
+			// Line 10
+			P();C();C();C();C();P();C();C();C();C();C();P();C();C();C();P();C();C();C();P();C();C();P();P();P();C();C();C();P();C();C();C();C();C();C();C();C();P();C();C();C();P();R();
+			
+			// Line 11
+			P();P();P();P();P();P();C();C();C();P();P();P();C();C();P();C();C();C();C();P();C();C();P();P();P();C();C();P();P();P();C();C();P();R();
+
+			Console.ReadKey();
+		}
+	}
 }
