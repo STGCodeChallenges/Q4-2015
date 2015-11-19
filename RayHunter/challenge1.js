@@ -4,30 +4,30 @@
  */
 var watchThis = function () {    
 
-  var one = Math.round(Math.SQRT2);
-  var two = one + one;
-  var three = one + two;
-  var four = two * two;
-  var five = four + one;
-  var seven = five + two;
-  var eight = four + four;
-  var ten = five + five;
-  var hundred = ten * ten;
+  var o = Math.round(Math.SQRT2);
+  var t = o + o;
+  var th = o + t;
+  var fo = t * t;
+  var fi = fo + o;
+  var s = fi + t;
+  var e = fo + fo;
+  var te = fi + fi;
+  var h = te * te;
 
-  var data = String.fromCharCode(ten * seven + two); // H 72 
-  data += String.fromCharCode(hundred + one); // e 101
-  data += String.fromCharCode(hundred + five + three); // l 108
-  data += String.fromCharCode(hundred + five + three); // l 108
-  data += String.fromCharCode(hundred + ten + one); // o 111
-  data += String.fromCharCode(ten * three + two); // space 32
-  data += String.fromCharCode(ten * eight + seven); // W 87
-  data += String.fromCharCode(hundred + ten + one); // o 111
-  data += String.fromCharCode(hundred + ten + four); // r 114
-  data += String.fromCharCode(hundred + five + three); // l 108
-  data += String.fromCharCode(hundred); // l 108
-  data += String.fromCharCode(ten * three + three); // ! 33
+  var d = String.fromCharCode(te * s + t); // H 72 
+  d += String.fromCharCode(h + o); // e 101
+  d += String.fromCharCode(h + fi + th); // l 108
+  d += String.fromCharCode(h + fi + th); // l 108
+  d += String.fromCharCode(h + te + o); // o 111
+  d += String.fromCharCode(te * th + t); // space 32
+  d += String.fromCharCode(te * e + s); // W 87
+  d += String.fromCharCode(h + te + o); // o 111
+  d += String.fromCharCode(h + te + fo); // r 114
+  d += String.fromCharCode(h + fi + th); // l 108
+  d += String.fromCharCode(h); // l 108
+  d += String.fromCharCode(te * th + th); // ! 33
 
-  return data;  
+  return d;  
 };
 
 // print the result
