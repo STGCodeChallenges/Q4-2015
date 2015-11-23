@@ -1,0 +1,26 @@
+<html>
+<body>
+<script>
+function p(row,num) {
+	var r, c;
+	r = t.insertRow(num);
+	for (i = 0; i < row.length; i++) {
+		c = r.insertCell(i);
+		if (row[i] === a) {
+			c.style.backgroundColor = "black";
+		}
+	}
+	
+}
+var a = {};
+
+var r = {1: [a,,a,,a,a,a,,a,,,,a,,,,,a,,,,,a,,,,a,,,a,,,a,a,a,,a,,,,a,a,,,a], 2: [a,,a,,a,,,,a,,,,a,,,,a,,a,,,,a,,,,a,,a,,a,,a,,a,,a,,,,a,,a,,a], 3: [a,a,a,,a,a,,,a,,,,a,,,,a,,a,,,,a,,,,a,,a,,a,,a,a,,,a,,,,a,,a,,a], 4: [a,,a,,a,,,,a,,,,a,,,,a,,a,,,,a,,a,,a,,a,,a,,a,,a,,a,,,,a,,a,,], 5: [a,,a,,a,a,a,,a,a,a,,a,a,a,,,a,,,,,,a,,a,,,,a,,,a,,a,,a,a,a,,a,a,,,a]};
+
+var t = document.createElement("table");
+for (j = 1; j < 6; j++) {
+	p(r[j], j - 1);
+}
+document.body.appendChild(t);
+</script>
+</body>
+</html>
