@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to alert</p>
+
+<button onclick="fun()">Try it</button>
+
+<script>
+function s(st) {
+     return String.fromCharCode(st);
+}
+function fun() {
+    var c = Math.ceil(Math.PI);
+    var f = Math.floor(Math.PI);
+    
+    var q = c * (c + c) + f + f - c;  
+    o = s(q);
+
+    var a = c * c * c + c + c;
+    o += s(a);
+
+    a = a + c * c + c + f * f;
+    o += s(a);
+
+    a = a+ f + c;
+    o += s(a) + s(a);
+
+    a = a + f;
+    o += s(a);
+
+    a = a / f - c - c + f;
+    o += s(a);
+
+    a = a * f - f - f - f;
+    o += s(a);
+
+    a = a + (c * (f+f));
+    o += s(a);    
+
+    a = a + f;
+    o += s(a); 
+
+    a = a - f - f;
+    o += s(a);
+
+    a = a - c - c;
+    o += s(a);
+
+    a = a - (c * c * c) - f;
+    o += s(a);
+    o += s(q);
+
+    alert(o);
+}
+</script>
+
+</body>
+</html>
+
