@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Code Challenge #1</title>
+</head>
+<body>
+<canvas id="canvas" width="300" height="200"></canvas>
+</body>
+<script>
+    var c = document.getElementById("canvas"),
+        cntx = c.getContext("2d"),
+        h = [[0,0,0,20],[10,0,10,20],[0,10,10,10]],
+        e = [[0,0,0,20],[0,0,15,0],[0,10,10,10],[0,20,15,20]],
+        l = [[0,0,0,20],[0,20,15,20]],
+        o = [[0,0,0,20],[0,0,10,0],[10,0,10,20],[0,20,10,20]],
+        w = [[0,0,5,20],[5,20,10,0],[10,0,15,20],[15,20,20,0]],
+        r = [[0,0,0,20],[0,0,10,5],[0,10,10,5],[0,10,15,20]],
+        d = [[0,0,0,20],[0,0,10,10],[0,20,10,10]];
+
+    ltr(h,0);
+    ltr(e,15);
+    ltr(l,31);
+    ltr(l,47);
+    ltr(o,63);
+    ltr(w,90);
+    ltr(o,117);
+    ltr(r,133);
+    ltr(l,150);
+    ltr(d,168);
+
+    function ltr(a,o) {
+        for (var i = 0; i < a.length; i++) {
+            lne(a[i][0] + o,a[i][1],a[i][2] + o,a[i][3]);
+        }
+    }
+    function lne(x1,y1,x2,y2) {
+        cntx.moveTo(x1,y1);
+        cntx.lineTo(x2,y2);
+        cntx.stroke();
+
+    }
+</script>
+</html>
