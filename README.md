@@ -14,3 +14,9 @@ Disallowed functionality:
 
 ## Bonus Entry
 Submit a solution with fewer than 1000 characters of core program logic (excludes comments, whitespace, unit tests, etc.).  No minifying, please.
+
+##Submission Instructions
+
+GitHub repo: https://github.com/STGCodeChallenges/Q4-2015-Challenge-01
+
+Google Form (to be filled out upon completion of challenge): https://docs.google.com/a/stgconsulting.com/forms/d/1ZZTzV6E0SKwII54O65HwET5c9z1h1RtbbXkNVbsbJPs/viewform?usp=send_form
